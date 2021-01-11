@@ -1,4 +1,4 @@
-## DETR Customdataset
+# DETR Customdataset
 
 detrをカスタムデータで学習
 本リポジトリはBDD100Kをcocoに変換した想定です。
@@ -6,10 +6,11 @@ detrをカスタムデータで学習
 
 本家のdetrは[こちら](https://github.com/facebookresearch/detr)
 
-# ほかのデータで学習する際の注意
+
+## ほかのデータで学習する際の注意
 - models/detr.pyの307行目、num_classesを使用するデータに合わせて下さい。
 
-#　準備
+## 準備
 - 学習データをダウンロード
 フォルダ内に学習データをダウンロードしてください。
 今回は以下のようなディレクトリ構造を想定しています
