@@ -71,8 +71,7 @@ def inf(model):
     model.to(device)
 
     model.eval()
-    #path="E:/the_study/hokkaido/image"
-    path='D:/research/dataset/hokkaido_test/val_test/img'
+    path='**********************************'
     folder='val_output'
 
     for imgfile in sorted(glob.glob(path+'/*')):
